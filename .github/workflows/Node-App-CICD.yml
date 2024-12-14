@@ -24,7 +24,7 @@ jobs:
       - name: Run tests
         run: npm test
 
-  # Step 2: Build and Push Docker Image
+  # Step 2: Build and Push Docker Image 
   build_and_push:
     runs-on: ubuntu-latest
     needs: test  # Run this job after "test" job completes successfully
